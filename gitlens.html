@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <title>Adan/180394</title>
+</head>
+
+<!-------Aqui comienza---------->
+
+<body>
+    <!--Header(gris)-->
+    <header class="p-2 bg-secondary">
+        <!--Navbar-->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+                <a class="navbar-logo" href="index.html">
+                    <img src="image/logo-largo.png" >
+                  </a>
+                
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarScroll">
+                <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="controlversion.html">Control de versiones</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="github.html">GitHub</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="gitlens.html">GitLens</a>
+                  </li>
+                  
+                </ul>
+                
+                <form class="d-flex">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-secondary" type="submit">Search</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+    </header>
+    <!--Breadcrumb-->
+    <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="index.html">Inicio</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Contacto</li>
+        </ol>
+      </nav>
+      <!--Cards-->
+      <div class="card">
+        <div class="card text-white bg-dark mb-3">
+          <div class="card-header"style="color:#808080"><h5>GitLens</h5></div>
+        </div>
+        <div class="card-body">
+          <h5 class="card-title">Funcionalidades</h5>
+          <img src="image/gitlens-logo.png" >
+          <p class="card-text">
+            •	Navegación de revisión sin esfuerzo (hacia atrás y hacia adelante) a través del historial de un archivo <br>
+•	Una anotación discreta de culpa de la línea actual al final de la línea que muestra la confirmación y el autor  que modificó la línea por última vez, con información de culpa más detallada accesible en hover<br>
+•	Lente de código de autoría que muestra la confirmación más reciente y el número de autores en la parte superior de los archivos y / o en los bloques de código.<br>
+•	Una anotación de culpa en la barra de estado que muestra la confirmación y el autor que modificó por última vez la línea actual<br>
+•	Anotaciones de archivos bajo demanda en el margen del editor, que incluyen
+o	culpa : muestra la confirmación y el autor que modificó por última vez cada línea de un archivo
+o	cambios : resalta los cambios locales (no publicados) o las líneas modificadas por la confirmación más reciente
+o	mapa de calor : muestra qué tan recientemente se cambiaron las líneas, en relación con todos los demás cambios en el archivo y hasta ahora (caliente frente a frío)<br>
+•	Muchas vistas ricas del side bar
+o	Un commits ver a visualizar, explorar y administrar confirmaciones git <br>
+o	Una vista de repositorios para visualizar, explorar y administrar repositorios de git <br>
+o	Una vista de historial de archivos para visualizar, navegar y explorar el historial de revisión del archivo actual o solo las líneas seleccionadas del archivo actual<br>
+o	Una vista de historial de líneas para visualizar, navegar y explorar el historial de revisión de las líneas seleccionadas del archivo actual<br>
+o	Una vista de ramas para visualizar, explorar y administrar las ramas de git<br>
+o	Una vista remotos para visualizar, explorar y administrar controles remotos y sucursales remotas de git<br>
+o	Una vista de stashes para visualizar, explorar y administrar los escondites de git<br>
+o	Una vista de etiquetas para visualizar, explorar y administrar etiquetas de git<br>
+o	Una vista colaboradores para visualizar, navegar y explorar colaboradores<br>
+o	Una vista de búsqueda y comparación para buscar y explorar historiales de confirmaciones por mensaje, autor, archivos, identificación, etc., o visualizar comparaciones entre ramas, etiquetas, confirmaciones y más<br>
+•	Una paleta de comandos de git para proporcionar acceso guiado (paso a paso) a muchos comandos de git comunes, así como un acceso rápido a <br>
+o	confirma - historial y búsqueda<br>
+o	escondites <br>
+o	estado : estado actual de la rama y del árbol de trabajo <br>
+•	Un editor de rebase interactivo fácil de usar para configurar fácilmente una sesión de rebase interactiva <br>
+•	enlaces de terminal :ctrl+clicken enlaces automáticos en el terminal integrado para saltar rápidamente a más detalles para confirmaciones, ramas, etiquetas y más<br>
+•	integraciones de proveedores remotos enriquecidos : github, gitlab, gitea, bitbucket, azure devops
+<br>
+o	Emitir y extraer el enlace automático de la solicitud
+<br>
+o	Información de desplazamiento enriquecida proporcionada para problemas vinculados y solicitudes de extracción (solo github)<br>
+o	Asocia solicitudes de extracción con ramas y confirmaciones (solo github)<br>
+•	Muchos comandos poderosos para navegar y comparar revisiones y más <br>
+•	Personalizables menús y barras de herramientas de control sobre dónde se muestran los elementos de menú y barra de herramientas <br>
+•	modos definidos por el usuario para alternar rápidamente entre conjuntos de configuraciones<br>
+</p>
+          <button type="button" class="btn btn-outline-dark">Boton en card</button>
+        </div>
+      </div>
+   <!--Accordion-->
+      <div class="accordion" id="accordionPanelsStayOpenExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+              Accordion Item #1
+            </button>
+          </h2>
+          <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
+            <div class="accordion-body">
+              <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+              Accordion Item #2
+            </button>
+          </h2>
+          <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
+            <div class="accordion-body">
+              <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+              Accordion Item #3
+            </button>
+          </h2>
+          <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+            <div class="accordion-body">
+              <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+            </div>
+          </div>
+        </div>
+      </div>
+<!------------------------------------------------------------------------------------------------------------------------------>
+
+    <footer class="p-4 bg-dark">
+      <p class="text-center" style="color:#808080" >Autor: Adan de Jesus Jaramillo Rubalcava</p>
+    </footer>
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+    crossorigin="anonymous"></script>
+
+</html>
